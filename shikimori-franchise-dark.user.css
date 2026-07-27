@@ -1,9 +1,12 @@
 /* ==UserStyle==
-@name           shikimori.one/animes/51009-jujutsu-kaisen-2nd-season/franchise
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@name           Shikimori franchise dark
+@namespace      https://github.com/eboboeing-747
+@version        1.0.1
+@description    a userstyle for shikimori /franchise section
+@author         eboboeing-747
+@homepageURL    https://github.com/eboboeing-747/shikimori-franchise-dark.git
+@supportURL     https://github.com/eboboeing-747/shikimori-franchise-dark.git/issues
+@updateURL      https://github.com/eboboeing-747/shikimori-franchise-dark.git/shikimori-franchise-dark.user.css
 ==/UserStyle== */
 
 @-moz-document regexp("https:\\/\\/shikimori\\.one.+franchise") {
