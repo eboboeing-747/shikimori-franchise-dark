@@ -2,10 +2,10 @@
 
 **A userstyle for shikimori franchise section**
 
-![shikimori franchise page preview](https://userstyles.world/preview/21880/0t.webp)
+![shikimori franchise page preview](https://userstyles.world/preview/21880/0.webp)
 
 ## Installation
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/eboboeing-747/main/shikimori-franchise-dark.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/eboboeing-747/shikimori-franchise-dark/main/shikimori-franchise-dark.user.css)
 
 **or install by hand**
 
