@@ -1,0 +1,102 @@
+/* ==UserStyle==
+@name           shikimori.one/animes/51009-jujutsu-kaisen-2nd-season/franchise
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document regexp("https:\\/\\/shikimori\\.one.+franchise") {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("https://i.postimg.cc/RhwZhw9H/wallpaperflare-com-wallpaper.jpg") !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
+    }
+    
+    /* header */
+    header.head {
+        justify-self: center;
+        display: grid;
+    }
+    
+    header.head h1, header.head h2 {
+        color: #ffffff;
+    }
+    
+    header.head h1 a.back, header.head h2 a.back {
+        color: #ffffff;
+    }
+    
+    header.head h1 a.back:before, header.head h2 a.back:before {
+        color: #ffffff;
+    }
+    
+    .b-breadcrumbs {
+        color: #ffffff;
+        justify-self: center;
+    }
+    
+    .b-link {
+        color: #2196f3;
+    }
+    
+    .p-animes-franchise, .p-mangas-franchise, .p-ranobe-franchise {
+        background: #242424;
+        color: #ffffff;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    /* graph with draggable tiles */
+    .graph {
+        background-color: rgba(0, 0, 0, 0.75);
+        justify-self: center;
+        border-radius: 16px;
+    }
+    
+    .p-animes-franchise .graph svg, .p-mangas-franchise .graph svg, .p-ranobe-franchise .graph svg {
+        border-style: none;
+    }
+    
+    /* sticky tooltip */
+    .p-animes-franchise .sticky-tooltip, .p-mangas-franchise .sticky-tooltip, .p-ranobe-franchise .sticky-tooltip {
+        background-color: rgba(0, 0, 0, 0.75);
+        border-style: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    /* BEGIN close button */
+    .p-animes-franchise .sticky-tooltip .close, .p-mangas-franchise .sticky-tooltip .close, .p-ranobe-franchise .sticky-tooltip .close {
+        background: transparent;
+    }
+    
+    .p-animes-franchise .sticky-tooltip .close:after, .p-mangas-franchise .sticky-tooltip .close:after, .p-ranobe-franchise .sticky-tooltip .close:after {
+        color: #ffffff;
+    }
+    /* END close button */
+    
+    .b-catalog_entry-tooltip .inner a.name {
+        color: #2196f3;
+    }
+    
+    .b-catalog_entry-tooltip .inner .line .key {
+        color: #ffffff;
+    }
+    
+    .b-tag[href] {
+        color: #2196f3;
+    }
+    
+    /* BEGIN rating */
+    .b-catalog_entry-tooltip .inner .rating {
+        color: #ffffff;
+    }
+    
+    .b-catalog_entry-tooltip .inner .rating .text {
+        color: #ffffff;
+    }
+    /* END rating */
+}
