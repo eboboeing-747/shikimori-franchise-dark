@@ -9,7 +9,7 @@
 @updateURL      https://github.com/eboboeing-747/shikimori-franchise-dark.git/shikimori-franchise-dark.user.css
 ==/UserStyle== */
 
-@-moz-document regexp("https:\\/\\/shikimori\\.one.+franchise") {
+@-moz-document regexp("https:\\/\\/shikimori.+franchise") {
     body {
         display: flex;
         flex-direction: column;
